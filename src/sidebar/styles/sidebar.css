@@ -1,0 +1,29 @@
+.sidebar {
+  background-color: var(--text-dark);
+  color: var(--selected-light);
+}
+
+.apps_title {
+  padding: 1rem 0.8rem;
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.sidebar_items {
+  list-style: none;
+}
+
+.sidebar_item {
+  padding: 1rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.sidebar_item:hover {
+  background-color: var(--selected-dark);
+}
+
+#active {
+  background-color: var(--selected-dark);
+}
